@@ -1,0 +1,27 @@
+.container {
+  .skeleton {
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 3px;
+    position: relative;
+    transform: translateZ(0px);
+    overflow: hidden;
+
+    &::before {
+      position: absolute;
+      inset: 0rem;
+      content: '';
+      background: rgb(255, 255, 255);
+      z-index: 10;
+    }
+
+    &::after {
+      position: absolute;
+      inset: 0;
+      content: '';
+      background: rgb(222, 226, 230);
+      animation: 1500ms linear 0s infinite normal none running animation-151xhna;
+      z-index: 11;
+    }
+  }
+}

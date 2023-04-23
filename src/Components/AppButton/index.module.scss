@@ -1,0 +1,23 @@
+.container {
+  border: 0;
+  padding: 0.5rem 1rem;
+  background: #228be6;
+  color: #fff;
+  font-weight: 600;
+  box-sizing: border-box;
+  appearance: none;
+  border-radius: 3px;
+
+  &.bt-white {
+    background: #fff;
+    color: #000;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &.fullWidth {
+    width: 100%;
+  }
+}

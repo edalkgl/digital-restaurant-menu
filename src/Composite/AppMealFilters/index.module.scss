@@ -1,0 +1,25 @@
+.container {
+  .headTitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(229, 231, 235);
+  }
+  .filterList {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 3px;
+
+    .item {
+      padding: 0.3rem 0;
+    }
+  }
+  .filterSearch {
+    margin-bottom: 1rem;
+    background: #fff;
+  }
+}

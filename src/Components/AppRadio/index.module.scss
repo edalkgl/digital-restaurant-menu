@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  :is(.radio, .label) {
+    cursor: pointer;
+  }
+
+  .radio {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    background-color: transparent;
+    border: 1px solid rgb(229, 231, 235);
+    background-image: none;
+    border-radius: 3px;
+  }
+  .label {
+    line-height: 1;
+    font-weight: 500;
+    margin-left: 0.5rem;
+  }
+}

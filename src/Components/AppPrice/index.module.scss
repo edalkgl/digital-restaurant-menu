@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background: #101b1f;
+  border-radius: 3px;
+  min-width: 65px;
+  padding: 4px 0;
+  color: #fff;
+
+  .label {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+  .text {
+    font-size: 12px;
+  }
+}

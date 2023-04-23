@@ -1,0 +1,115 @@
+.main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+}
+
+.headineSection {
+  position: relative;
+  padding: 4rem 0;
+  z-index: 1;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .title {
+      font-size: 50px;
+      font-weight: 400;
+      width: 600px;
+      color: #fff;
+      margin: 0 auto;
+      padding-bottom: 1rem;
+      text-shadow: 0px 1px 1px #000;
+
+      mark {
+        display: inline-block;
+        background: rgb(255 255 255 / 24%);
+        color: #fff;
+      }
+    }
+    .desc {
+      font-size: 18px;
+      width: 650px;
+      color: #fff;
+      font-weight: 500;
+      margin: 0 auto;
+      text-shadow: 0px 1px 1px #000;
+    }
+    .btnLayer {
+      display: flex;
+      justify-content: center;
+
+      .link {
+        display: inline-block;
+      }
+      .btn {
+        padding: 0.6rem 1.2rem;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
+
+:is(.welcomeOverlay, .welcomeBg) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.welcomeOverlay {
+  background-color: rgba(0, 0, 5, 0.34);
+  z-index: 1;
+}
+
+.welcomeBg {
+  object-fit: cover;
+}
+
+// @media (max-width: 1600px) {
+// }
+
+// @media (max-width: 1400px) {
+// }
+
+// @media (max-width: 1200px) {
+// }
+
+// @media (max-width: 992px) {
+// }
+
+@media (max-width: 768px) {
+  .headineSection {
+    .wrapper {
+      :is(.title, .desc) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .headineSection {
+    .wrapper {
+      .title {
+        font-size: 30px;
+      }
+      .desc {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+// @media (max-width: 480px) {
+// }
+
+// @media (max-width: 320px) {
+// }
