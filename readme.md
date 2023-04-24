@@ -1,7 +1,7 @@
 # Transparent Restaurant - Nextjs Web Uygulaması
 
 ## Başlatma
-Cmd tarafında projeye giriş yapılır ve sırasıyla aşağıdaki adımları yapınız.
+Cmd tarafında projeye giriş yapılır ve sırasıyla aşağıdaki adımları yapılır.
 
 ```bash
 npm install
