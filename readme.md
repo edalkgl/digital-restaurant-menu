@@ -1,4 +1,4 @@
-## Dijital Menu Restaurant - Nextjs Web Uygulaması
+## Digital Menu Restaurant - Nextjs Web Uygulaması
 
 ## Başlatma
 Cmd tarafında projeye giriş yapılır ve sırasıyla aşağıdaki adımları yapılır.
